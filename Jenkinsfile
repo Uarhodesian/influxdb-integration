@@ -8,7 +8,7 @@ pipeline {
         }
         stage('quality gate') {
             steps { 
-                echo 'Welcome to secont test'
+                echo 'Welcome to secont test2'
             }
         }
         stage('release') {
