@@ -11,6 +11,11 @@ pipeline {
                 echo 'Welcome junit test'
             }
         }
+        stage('failure') {
+            steps { 
+                sh 'pwdd'
+            }
+        }        
         stage('quality gate') {
             steps { 
                 echo 'Welcome to quality gate'
